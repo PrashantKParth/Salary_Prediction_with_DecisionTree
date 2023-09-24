@@ -1,10 +1,5 @@
-This repository contains Python code for analyzing salary data and building a Decision Tree Regression model for predicting total pay based on various features. The code includes data preprocessing steps, handling missing values, and using scikit-learn for machine learning. Explore the code to understand how to predict salaries with Decision Trees.
-
-
-```markdown
 # Salary_Prediction_with_DecisionTree
-
-This repository contains Python code for analyzing salary data and building a Decision Tree Regression model for predicting total pay based on various features.
+This repository contains Python code for analyzing salary data and building a Decision Tree Regression model for predicting total pay based on various features. The code includes data preprocessing steps, handling missing values, and using scikit-learn for machine learning. Explore the code to understand how to predict salaries with Decision Trees.
 
 ## Table of Contents
 
@@ -13,8 +8,6 @@ This repository contains Python code for analyzing salary data and building a De
 - [Usage](#usage)
 - [Data](#data)
 - [Machine Learning](#machine-learning)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -38,7 +31,7 @@ pip install pandas scikit-learn
 1. Clone this repository to your local machine:
 
 ```bash
-git clone < https://github.com/prashantkparth/Salary_Prediction_with_DecisionTree >
+git clone <https://github.com/prashantkparth/Salary_Prediction_with_DecisionTree>
 ```
 
 2. Navigate to the project directory:
@@ -57,12 +50,9 @@ We used the "Salaries.csv" dataset for this project. The dataset contains inform
 
 We utilized scikit-learn to build a Decision Tree Regression model. The code includes data preprocessing steps, handling missing values, and encoding categorical features.
 
-```python
+
 # Example code for training the model and making predictions
 from sklearn.tree import DecisionTreeRegressor
-
-# Load and preprocess the data
-# ...
 
 # Create and train the Decision Tree Regression model
 model = DecisionTreeRegressor()
@@ -70,9 +60,11 @@ model.fit(inputs_new, target)
 
 # Make predictions
 predictions = model.predict([[3]])
-```
-
-Feel free to explore the code in the Jupyter Notebook or Python script for more details.
 
 
-```
+
+
+### Feel free to explore the code in the Jupyter Notebook or Python script for more details.
+
+
+
